@@ -1,0 +1,8 @@
+# Arduino / PlatformIO build output
+build/
+.pio/
+*.hex
+*.elf
+*.bin
+.vscode/
+.DS_Store
