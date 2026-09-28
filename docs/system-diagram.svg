@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" font-family="ui-monospace,Menlo,Consolas,monospace">
+  <rect width="680" height="290" rx="14" fill="#0d1117"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8b949e"/></marker></defs>
+  <g font-size="12" fill="#e6edf3" text-anchor="middle">
+    <g fill="#161b22" stroke="#30363d">
+      <rect x="24" y="44" width="160" height="46" rx="7"/><rect x="24" y="114" width="160" height="46" rx="7"/><rect x="24" y="184" width="160" height="46" rx="7"/>
+      <rect x="262" y="106" width="156" height="62" rx="7" stroke="#3fb950"/>
+      <rect x="496" y="34" width="160" height="56" rx="7"/><rect x="496" y="120" width="160" height="46" rx="7"/><rect x="496" y="196" width="160" height="46" rx="7"/>
+    </g>
+    <text x="104" y="64">HC-SR04 ultrasonic</text><text x="104" y="80" font-size="10.5" fill="#8b949e">distance · A1/A0</text>
+    <text x="104" y="134">IR sensor · left</text><text x="104" y="150" font-size="10.5" fill="#8b949e">direction · A3</text>
+    <text x="104" y="204">IR sensor · right</text><text x="104" y="220" font-size="10.5" fill="#8b949e">direction · A2</text>
+    <text x="340" y="132" fill="#3fb950" font-size="13">Arduino Uno</text><text x="340" y="150" font-size="10.5" fill="#8b949e">state machine @ 25 Hz</text>
+    <text x="576" y="57">L293D motor shield</text><text x="576" y="74" font-size="10.5" fill="#8b949e">PWM · M1–M4</text>
+    <text x="576" y="148">4 × BO gear motors</text>
+    <text x="576" y="218">Servo (sensor head)</text><text x="576" y="233" font-size="10.5" fill="#8b949e">D10</text>
+    <text x="340" y="272" font-size="10.5" fill="#8b949e">9 V battery powers logic and motors</text>
+  </g>
+  <g stroke="#8b949e" stroke-width="1.4" fill="none" marker-end="url(#ar)">
+    <path d="M184 67 H222 V124 H260"/><path d="M184 137 H260"/><path d="M184 207 H222 V150 H260"/>
+    <path d="M418 125 H456 V62 H494"/><path d="M576 90 V118"/><path d="M418 150 H456 V219 H494"/>
+  </g>
+</svg>
